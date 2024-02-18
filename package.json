@@ -4,7 +4,7 @@
   "description": "API for MCA frontend",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index.js"
   },
   "author": "Jonathan Atong",
   "license": "ISC",

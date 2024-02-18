@@ -162,7 +162,7 @@ app.post("/login", (req,res)=>
                 else
                 {
                     console.log(err);
-                    res.send("Wrong password");
+                    res.send({message:"Wrong password"});
                 }
             })
 
