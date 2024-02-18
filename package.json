@@ -4,7 +4,8 @@
   "description": "API for MCA frontend",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "node index.js",
+	"mon": "nodemon index.js"
   },
   "author": "Jonathan Atong",
   "license": "ISC",
