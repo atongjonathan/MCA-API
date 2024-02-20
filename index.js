@@ -58,7 +58,7 @@ const userSchema =  new mongoose.Schema(
             type:String,
             required:[true, "County Name is required"],
         },
-        id_no:
+        phone_no:
         {
             type:Number,
             required:[true, "Phone No is required"]
@@ -179,7 +179,7 @@ app.post("/login", (req,res)=>
 })
 
 
-app.listen(8000, ()=>
+app.listen(60000, ()=>
 {
     console.log("Server is running")
 })
